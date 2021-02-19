@@ -1,0 +1,25 @@
+body{
+    background-color:#a3b2b6;
+}
+
+
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+}
+.like-body{
+   
+}
+.main{
+
+}
+.header{
+
+}
+.footer{
+    height: 10vh;
+    background-color: aqua;
+}
