@@ -1,0 +1,51 @@
+body{
+    background-color:#a3b2b6;
+}
+
+
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+}
+.like-body{
+   
+}
+.main{
+
+}
+.header{
+
+}
+.footer{
+    height: 10vh;
+    background-color: aqua;
+}
+
+
+
+img{
+    width: 15vw;
+    height: auto;
+    margin-left: 4vw;
+}
+
+.container{
+        margin: 0 auto;
+        max-width: 1000px;
+        display: grid;
+         grid-template-columns: repeat(3, 1fr); 
+        /* grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)); */
+        grid-auto-rows: auto;
+        gap: 20px;
+        font-family: sans-serif;
+        padding-top: 30px;
+        
+}
+
+.icon{
+    background-color:white;
+    border-radius: 2vw;
+}

@@ -1,25 +1,41 @@
 body{
     background-color:#a3b2b6;
+    
 }
-
-
 
 h1{
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px #000000;
-    font-size: 30px;
+    font-size: 5vh;
 }
 .like-body{
    
 }
 .main{
-
+    margin-top: -5vh;
 }
 .header{
 
 }
-.footer{
-    height: 10vh;
-    background-color: aqua;
-}
+.footer-wrapper{
+    min-height: 45px;
+    margin-left: 0;
+
+  }
+
+
+  .footer-logo{
+    padding-bottom: 10px;
+  }
+
+  .footer-logo img{
+    height: 40px;
+    width: 40px;
+    filter: grayscale(100%);
+  }
+
+  .footer-logo img:hover{
+    filter: grayscale(0%);
+    
+  }
